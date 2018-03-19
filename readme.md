@@ -9,6 +9,19 @@
 
 ![](screenshot-detail.png)
 
+## Database 
+![](database.png) 
+
+How to use it:
+You can find the database in the root called shelter.sql.
+Enter:
+```
+1. mysql -u username -p database_name < shelter.sql
+2. Select animal: SELECT name FROM animals WHERE type = 'Rabbit';
+3. Remove animal: DELETE FROM animals WHERE name='Pookie';
+4. Alter: ALTER TABLE animals ADD taken VARCHAR(20) AFTER gender;
+```
+
 ## Install
 
 Fork this repository, `cd` into it, and:
